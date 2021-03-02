@@ -1,14 +1,13 @@
 /* esline-env browser */
 
 let coinFlip;
-let i = 0;
+let i = 1;
 do {
   coinFlip = Math.round(Math.random());
   if (coinFlip === 0) {
-      window.console.log('Heads ' + 'number of times you got heads is:' + i); 
-      break;
+      window.console.log('Heads');     
   }
   i++; 
-} while (coinFlip === 1); 
+} while (coinFlip === 0); 
 window.console.log('Tails');
 
