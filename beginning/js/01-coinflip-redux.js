@@ -1,3 +1,4 @@
+/* esline-env browser */
 let coinFlip;
 let choice = parseInt(prompt('Enter the number of times to flip'));
 for (let i = 0; i < choice; i++) {
@@ -7,4 +8,4 @@ for (let i = 0; i < choice; i++) {
   } else {
       window.console.log("Tails")
   }
-}12
+}
